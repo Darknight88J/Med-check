@@ -1,0 +1,16 @@
+{
+  "name": "medcheck-push-server",
+  "version": "1.0.0",
+  "description": "Med check Web Push backend (Web Push 轻量后端)",
+  "type": "module",
+  "main": "push-server.mjs",
+  "scripts": {
+    "start": "node push-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
